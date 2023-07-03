@@ -1,0 +1,234 @@
+* {
+    font-family: Google Sans;   
+}
+
+.fl-table {
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 80vw;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+    box-shadow: 1px 5px 7px 0px rgba(0,0,0,.1);
+    margin-bottom: 50px;
+}
+
+.fl-table td, .fl-table th {
+    text-align: center;
+    padding: 12px 8px;
+}
+
+.fl-table td {
+    border-right: 1px solid #f8f8f8;
+    font-size: 12px;
+}
+
+.fl-table thead th {
+    color: #ffffff;
+    background: #474747;
+}
+
+
+.fl-table thead th:nth-child(odd) {
+    color: #ffffff;
+    background: #262626;
+}
+
+.fl-table tr:nth-child(even) {
+    background: #F8F8F8;
+}
+
+.a {
+    margin-bottom: 10px;
+}
+
+.header-index {
+    padding: 0;
+    margin: 0 50px;
+}
+
+.header-index .btn-tambah {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #1489ff;
+    color: white;
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+
+.header-index .btn-tambah:hover {
+    background-color: #47a3ff;
+    box-shadow: 1px 5px 7px 0px rgba(0,0,0,.1);
+    transition: all 0.2s;
+}
+
+.header-index .btn-tambah:active {
+    background-color: #0d78e2;
+    box-shadow: none;
+}
+
+.header-index .btn-ekspor {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #ff9647;
+    color: white;
+    border-radius: 10px;
+    transition: all 0.2s;
+    margin-left: 10px;
+}
+
+.header-index .btn-ekspor:hover {
+    background-color: #ffab6b;
+    box-shadow: 1px 5px 7px 0px rgba(0,0,0,.1);
+    transition: all 0.2s;
+}
+
+.header-index .btn-ekspor:active {
+    background-color: #e47724;
+    box-shadow: none;
+}
+
+.header {
+    display: flex;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: 50px;
+}
+
+.header .back a {
+    color: #262626;
+    padding: 10px 13px;
+    font-size: 20px;
+    margin-right: 10px;
+    border-radius: 25px;
+}
+
+.header .back a:hover {
+    background-color: #eee;
+}
+
+.header .back {
+    align-self: center;
+}
+
+.header .title span {
+    font-size: 30px;
+    font-weight: bold;
+    color: #262626;
+}
+
+.btn-submit {
+    padding: 15px 25px;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 30px;
+    background-color: #1489ff;
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    transition: all 0.2s;
+    outline: none;
+}
+
+.btn-submit:hover {
+    background-color: #47a3ff;
+    box-shadow: 1px 5px 7px 0px rgba(0,0,0,.1);
+    transition: all 0.2s;
+}
+
+.btn-submit:active {
+    background-color: #0d78e2;
+    box-shadow: none;
+}
+
+form .form {
+    padding: 0 50px;
+}
+
+form .form .name-field .size {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    /* background-color: #eee; */
+}
+
+form .form .name-field .size span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form .form .name-field .size input {
+    padding: 10px;
+    border-radius: 10px;
+    background: #fff;
+    border: 1.5px solid #262626;
+    outline: none;
+    transition: all 0.2s;
+    width: 100%;
+}
+
+form .form .name-field .size input:hover {
+    box-shadow: 1px 3px 1px 0px rgba(0,0,0,.2);
+    transform: translateY(-1px);
+    transition: all 0.2s;
+}
+
+form .form .name-field .size input:focus {
+    box-shadow: 1px 3px 1px 0px #262626;
+    transform: translateY(0);
+    transition: all 0.2s;
+}
+
+.btn-edit {
+    text-decoration: none; 
+    font-size: 12px;
+    padding: 5px 10px; 
+    background: #24e23a; 
+    color: white
+}
+
+.btn-edit:hover {
+    background-color: #11c225;
+}
+
+.btn-delete {
+    text-decoration: none; 
+    font-size: 12px;
+    padding: 5px 10px;
+    background: salmon; 
+    color: white
+}
+
+.btn-delete:hover {
+    background-color: rgb(216, 84, 70);
+}
+
+.searchform {
+    margin-left: 50px;
+    margin-top: 25px;
+    width: 50vw;
+    padding: 7px 10px;
+    border-radius: 10px;
+    background: #fff;
+    border: 1.5px solid #262626;
+    outline: none;
+    transition: all 0.2s;
+}
+
+.searchform:hover {
+    box-shadow: 1px 3px 1px 0px rgba(0,0,0,.2);
+    transform: translateY(-1px);
+    transition: all 0.2s;
+}
+
+.searchform:focus {
+    box-shadow: 1px 3px 1px 0px #262626;
+    transform: translateY(0);
+    transition: all 0.2s;
+}

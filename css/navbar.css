@@ -1,0 +1,101 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    padding-top: 70px;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #1489ff;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 10px 5px rgba(0,0,0,.1);
+    position: fixed;
+    z-index: 1;
+}
+        
+.navbar .logo {
+    margin-left: 50px;
+    align-self: center;
+    color: white;
+    font-size: 20px;
+}
+
+.menu {
+    margin-right: 50px;
+    align-self: center;
+}
+        
+.menu ul {
+    list-style: none;
+    position: relative;
+}    
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+        
+.menu ul li {
+    display: inline-block;
+    background-color: #1489ff;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+
+.menu ul li:hover {
+    background-color: rgba(0,0,0,.2);
+}
+        
+.menu ul ul {
+    display: none;
+    position: absolute; 
+    top: 60px;
+}
+
+/* Display Dropdowns on Hover */
+.menu ul li:hover > ul {
+    display: inherit;
+}
+    
+/* Fisrt Tier Dropdown */
+.menu ul ul li {
+    text-align: center;
+    padding: 15px 41px;
+    float: none;
+    display: list-item;
+    position: relative;
+    left: -142px;
+    background: #f74b31;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+        
+.menu ul ul li:hover {
+    background: #d82c15;
+}
+        
+.menu ul ul li a {
+    text-decoration: none;
+    align-items: center;
+}
+
+/* Second, Third and more Tiers	*/
+.menu ul ul ul li {
+    position: relative;
+    top: -60px;
+}
+
+          
+/* Change this in order to change the Dropdown symbol */
+li > a:after { 
+    content: ''; 
+}
+
+li > a:only-child:after { 
+    content: ''; 
+}
